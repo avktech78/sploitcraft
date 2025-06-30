@@ -5,6 +5,8 @@ I've been playing around with the idea of leveraging LLMs as both malware and co
 To explore these concepts I came up with a simple agent capable of autonomously solving a CTF challenge within a containerized sandbox environment.  
 The system leverages *OpenAI*'s APIs and an *S3* bucket to implement a memory/caching mechanism:  
 this approach demonstrates how powerful and potentially dangerous these technologies can be.  
+(PS: apart from the simple PoC in this directory, you can leverage [*this*](https://github.com/R3DRUN3/codex-unchained) repo for these kind of experimentations).    
+
 
 ## Requirements
 - OpenAI Api Key
